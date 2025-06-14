@@ -130,7 +130,7 @@ section h2 {
     text-indent: 10em;
 }
 
-/* Adventure images */
+
 section img {
     width: 180px;
     margin: 0.5rem;
@@ -183,7 +183,7 @@ section img:hover {
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     transition: transform 0.3s ease;
 }
-/* Footer */
+
 footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -223,7 +223,7 @@ footer p {
 .contact-form h2,
 .employee-section h2 {
     text-align: center;
-    text-indent: 0;
+    text-indent: 0
 }
 .contact-container {
     padding: 2rem;
@@ -270,10 +270,16 @@ form input, form textarea, form button {
 .contact-info {
     font-family: 'Montserrat', 'Roboto', sans-serif;
 }
+.contact-info h1 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
 
 .contact-container,
 .contact-container * {
     font-family: 'Montserrat', 'Roboto', sans-serif !important;
+    
 }
 
 form button {
