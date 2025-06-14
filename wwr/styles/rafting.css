@@ -159,6 +159,7 @@ section img:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .adventures img {
     flex: 1 1 0;
     max-width: 180px;
@@ -218,4 +219,91 @@ footer p {
 
 .social-nav img:hover {
     transform: scale(1.1);
+}
+.contact-form h2,
+.employee-section h2 {
+    text-align: center;
+    text-indent: 0;
+}
+.contact-container {
+    padding: 2rem;
+    max-width: 960px;
+    margin: auto;
+}
+
+.contact-info, .employee-section, .contact-form {
+    margin-bottom: 2rem;
+}
+
+.employee-gallery {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.employee-gallery img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+form input, form textarea, form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.contact-info > * + * {
+    margin-top: 1.5rem;
+}
+
+
+.contact-info {
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+}
+
+.contact-container,
+.contact-container * {
+    font-family: 'Montserrat', 'Roboto', sans-serif !important;
+}
+
+form button {
+    background-color: #005f73;
+    color: white;
+}
+
+form button:hover {
+    background-color: #058bc9;
+    color: white;
+    transition: background 0.3s, color 0.3s;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+.wireframe{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 0.85rem;
+    
+    z-index: 2;
+}
+
+.wireframe a {
+    color: white;
+    text-decoration: none;
+}
+
+.wireframe a:hover {
+    text-decoration: underline;
+    color: var(--accent-color);
 }

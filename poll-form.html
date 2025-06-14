@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD130 | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD130 | David-Owolabi | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full name</label>
+                <input type="text" id="fullname" name="fullname">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="useremail">Email</label>
+                <input type="email" name="useremail" id="useremail">
+
+                <label for="browser">What is your favourite internet browser?</label>
+                <select name="browser" id="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Microsoft Edge</option>
+                    <option value="firefox">Firefox</option>
+                </select>
+
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" name="pet" id="pet">
+
+                <label for="feedback">List the places you have lived</label>
+                <textarea name="feedback" id="feedback" rows="4" placeholder= "Nigeria, Canada, Ghana, Sierra Leone"></textarea>
+
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+
+    </main>
+    <footer>
+        <p>©2025 | HTML Form - User Poll | David-Owolabi  </p>
+    </footer>
+</body>
+</html>
